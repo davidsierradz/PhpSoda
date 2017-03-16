@@ -3,15 +3,15 @@
 /**
  * This file contains the UrlQuery class which is a wrapper for cURL
  *
- * @copyright 2015 Vladimir Jimenez
+ * @copyright 2017 David Sierra
  * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
  */
 
-namespace allejo\Socrata\Utilities;
+namespace Davidsierradz\Socrata\Utilities;
 
-use allejo\Socrata\Exceptions\CurlException;
-use allejo\Socrata\Exceptions\HttpException;
-use allejo\Socrata\Exceptions\SodaException;
+use Davidsierradz\Socrata\Exceptions\CurlException;
+use Davidsierradz\Socrata\Exceptions\HttpException;
+use Davidsierradz\Socrata\Exceptions\SodaException;
 
 /**
  * A wrapper class for working with cURL requests.
@@ -22,7 +22,7 @@ use allejo\Socrata\Exceptions\SodaException;
  * There's no need to access this class outside of this library as the appropriate functionality is properly wrapped in
  * the SodaDataset class.
  *
- * @package allejo\Socrata\Utilities
+ * @package Davidsierradz\Socrata\Utilities
  * @since   0.1.0
  */
 class UrlQuery
@@ -250,9 +250,9 @@ class UrlQuery
      *
      * @since  0.1.0
      *
-     * @throws \allejo\Socrata\Exceptions\CurlException If cURL is misconfigured or encounters an error
-     * @throws \allejo\Socrata\Exceptions\HttpException An HTTP status of something other 200 is returned
-     * @throws \allejo\Socrata\Exceptions\SodaException A SODA API error is returned
+     * @throws \Davidsierradz\Socrata\Exceptions\CurlException If cURL is misconfigured or encounters an error
+     * @throws \Davidsierradz\Socrata\Exceptions\HttpException An HTTP status of something other 200 is returned
+     * @throws \Davidsierradz\Socrata\Exceptions\SodaException A SODA API error is returned
      *
      * @return mixed|NULL
      */
@@ -314,7 +314,7 @@ class UrlQuery
      *
      * @since  0.1.0
      *
-     * @throws \allejo\Socrata\Exceptions\CurlException If cURL is misconfigured or encounters an error
+     * @throws \Davidsierradz\Socrata\Exceptions\CurlException If cURL is misconfigured or encounters an error
      *
      * @return mixed
      */
@@ -338,8 +338,8 @@ class UrlQuery
      *
      * @since  0.1.0
      *
-     * @throws \allejo\Socrata\Exceptions\HttpException If the $body returned was not a JSON object
-     * @throws \allejo\Socrata\Exceptions\SodaException The returned JSON object in the $body was a SODA API error
+     * @throws \Davidsierradz\Socrata\Exceptions\HttpException If the $body returned was not a JSON object
+     * @throws \Davidsierradz\Socrata\Exceptions\SodaException The returned JSON object in the $body was a SODA API error
      *
      * @return mixed An associative array of the decoded JSON response
      */

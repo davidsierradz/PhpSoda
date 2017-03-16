@@ -1,6 +1,6 @@
 <?php
 
-use allejo\Socrata\SodaClient;
+use Davidsierradz\Socrata\SodaClient;
 
 class SodaClientTest extends PHPUnit_Framework_TestCase
 {

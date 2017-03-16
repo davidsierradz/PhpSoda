@@ -1,6 +1,6 @@
 <?php
 
-use allejo\Socrata\Utilities\StringUtilities;
+use Davidsierradz\Socrata\Utilities\StringUtilities;
 
 class StringUtilitiesTest extends PHPUnit_Framework_TestCase
 {
@@ -42,7 +42,7 @@ class StringUtilitiesTest extends PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider SodaDatasetTest::invalidResourceIDs
-     * @expectedException allejo\Socrata\Exceptions\InvalidResourceException
+     * @expectedException Davidsierradz\Socrata\Exceptions\InvalidResourceException
      *
      * @param $resourceID string The resource ID to be testing
      */

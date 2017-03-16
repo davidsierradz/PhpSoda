@@ -3,16 +3,16 @@
 /**
  * This file contains the FileNotFoundException
  *
- * @copyright 2015 Vladimir Jimenez
+ * @copyright 2017 David Sierra
  * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
  */
 
-namespace allejo\Socrata\Exceptions;
+namespace Davidsierradz\Socrata\Exceptions;
 
 /**
  * An exception thrown if a file trying to be access could not be found
  *
- * @package allejo\Socrata\Exceptions
+ * @package Davidsierradz\Socrata\Exceptions
  * @since   0.1.0
  */
 class FileNotFoundException extends \Exception

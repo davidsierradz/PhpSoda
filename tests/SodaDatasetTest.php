@@ -1,8 +1,8 @@
 <?php
 
-use allejo\Socrata\SodaClient;
-use allejo\Socrata\SodaDataset;
-use allejo\Socrata\SoqlQuery;
+use Davidsierradz\Socrata\SodaClient;
+use Davidsierradz\Socrata\SodaDataset;
+use Davidsierradz\Socrata\SoqlQuery;
 
 class SodaDatasetTest extends PHPUnit_Framework_TestCase
 {
@@ -44,7 +44,7 @@ class SodaDatasetTest extends PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider invalidResourceIDs
-     * @expectedException allejo\Socrata\Exceptions\InvalidResourceException
+     * @expectedException Davidsierradz\Socrata\Exceptions\InvalidResourceException
      *
      * @param $resourceID string The resource ID to be testing
      */
@@ -54,7 +54,7 @@ class SodaDatasetTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException allejo\Socrata\Exceptions\SodaException
+     * @expectedException Davidsierradz\Socrata\Exceptions\SodaException
      * @expectedExceptionCode authentication_required
      */
     public function testGetDatasetWithInvalidCredentials ()
@@ -119,7 +119,7 @@ class SodaDatasetTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException allejo\Socrata\Exceptions\SodaException
+     * @expectedException Davidsierradz\Socrata\Exceptions\SodaException
      * @expectedExceptionCode row.missing
      */
     public function testGetInvalidIndividualRow ()

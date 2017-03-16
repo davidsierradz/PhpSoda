@@ -3,22 +3,22 @@
 /**
  * This file contains the SodaDataset class
  *
- * @copyright 2015 Vladimir Jimenez
+ * @copyright 2017 David Sierra
  * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
  */
 
-namespace allejo\Socrata;
+namespace Davidsierradz\Socrata;
 
-use allejo\Socrata\Converters\Converter;
-use allejo\Socrata\Exceptions\InvalidResourceException;
-use allejo\Socrata\Utilities\StringUtilities;
-use allejo\Socrata\Utilities\UrlQuery;
+use Davidsierradz\Socrata\Converters\Converter;
+use Davidsierradz\Socrata\Exceptions\InvalidResourceException;
+use Davidsierradz\Socrata\Utilities\StringUtilities;
+use Davidsierradz\Socrata\Utilities\UrlQuery;
 
 /**
  * An object provided to interact with a Socrata dataset directly. Provides functionality for fetching the dataset, an
  * individual row, or updating/replacing a dataset.
  *
- * @package allejo\Socrata
+ * @package Davidsierradz\Socrata
  * @since   0.1.0
  */
 class SodaDataset

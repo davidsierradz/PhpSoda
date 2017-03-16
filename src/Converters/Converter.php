@@ -3,13 +3,13 @@
 /**
  * This file contains the base class for converters which PhpSoda will support
  *
- * @copyright 2015 Vladimir Jimenez
+ * @copyright 2017 David Sierra
  * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
  */
 
-namespace allejo\Socrata\Converters;
+namespace Davidsierradz\Socrata\Converters;
 
-use allejo\Socrata\Exceptions\FileNotFoundException;
+use Davidsierradz\Socrata\Exceptions\FileNotFoundException;
 
 /**
  * The base class to support custom data formats other than JSON; this is so PhpSoda can support for your any data
@@ -22,7 +22,7 @@ use allejo\Socrata\Exceptions\FileNotFoundException;
  * As an example, PhpSoda's official support of CSV is a converter extended from this class and implements a conversion
  * from CSV to JSON.
  *
- * @package allejo\Socrata\Converters
+ * @package Davidsierradz\Socrata\Converters
  * @since   0.1.0
  */
 abstract class Converter
@@ -53,7 +53,7 @@ abstract class Converter
      *
      * @param  string $filename The path or filename of the CSV file to open and create a CsvConverter for
      *
-     * @throws \allejo\Socrata\Exceptions\FileNotFoundException
+     * @throws \Davidsierradz\Socrata\Exceptions\FileNotFoundException
      *
      * @return static
      */

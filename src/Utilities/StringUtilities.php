@@ -7,9 +7,9 @@
  * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
  */
 
-namespace allejo\Socrata\Utilities;
+namespace Davidsierradz\Socrata\Utilities;
 
-use allejo\Socrata\Exceptions\InvalidResourceException;
+use Davidsierradz\Socrata\Exceptions\InvalidResourceException;
 
 /**
  * This class contains static utilities used for validating strings

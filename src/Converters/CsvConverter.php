@@ -3,11 +3,11 @@
 /**
  * This file contains the CSV converter used by PhpSoda to officially support CSV as a data format
  *
- * @copyright 2015 Vladimir Jimenez
+ * @copyright 2017 David Sierr5
  * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
  */
 
-namespace allejo\Socrata\Converters;
+namespace Davidsierradz\Socrata\Converters;
 
 /**
  * The class used to officially support CSV as a data format that can be submitted to Socrata
@@ -15,8 +15,8 @@ namespace allejo\Socrata\Converters;
  * This class extends the Converter base class which implements the abstract `toJson()` method that PhpSoda calls when
  * sending data to Socrata.
  *
- * @package allejo\Socrata\Converters
- * @see     allejo\Socrata\Converters\Converter
+ * @package Davidsierradz\Socrata\Converters
+ * @see     Davidsierradz\Socrata\Converters\Converter
  * @since   0.1.0
  */
 class CsvConverter extends Converter

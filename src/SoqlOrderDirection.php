@@ -3,16 +3,16 @@
 /**
  * This file contains an abstract class with constants defining the order a Soda query could be returned in.
  *
- * @copyright 2015 Vladimir Jimenez
+ * @copyright 2017 David Sierra
  * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
  */
 
-namespace allejo\Socrata;
+namespace Davidsierradz\Socrata;
 
 /**
  * An abstract class with constants defining the order a Soda query could be return in.
  *
- * @package allejo\Socrata
+ * @package Davidsierradz\Socrata
  * @since   0.1.0
  */
 abstract class SoqlOrderDirection

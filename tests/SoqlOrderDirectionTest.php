@@ -1,6 +1,6 @@
 <?php
 
-use allejo\Socrata\SoqlOrderDirection;
+use Davidsierradz\Socrata\SoqlOrderDirection;
 
 class SoqlOrderDirectionTest extends PHPUnit_Framework_TestCase
 {

@@ -6,9 +6,9 @@ include "phpsoda-0.1.0.phar";
 
 // PhpSoda organizes its code inside namespaces; in order to use PhpSoda, you'll have to "use" the namespaces. These
 // three namespaces should suffice for most code.
-use allejo\Socrata\SodaClient;
-use allejo\Socrata\SodaDataset;
-use allejo\Socrata\SoqlQuery;
+use Davidsierradz\Socrata\SodaClient;
+use Davidsierradz\Socrata\SodaDataset;
+use Davidsierradz\Socrata\SoqlQuery;
 
 // If someone has pushed the "Submit" button, this'll be set to true
 $postBack = $_SERVER['REQUEST_METHOD'] == 'POST';

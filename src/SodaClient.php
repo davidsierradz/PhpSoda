@@ -3,16 +3,16 @@
 /**
  * This file contains the SodaClient class
  *
- * @copyright 2015 Vladimir Jimenez
+ * @copyright 2017 David Sierra
  * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
  */
 
-namespace allejo\Socrata;
+namespace Davidsierradz\Socrata;
 
 /**
  * An object provided to handle tokens, authentication, and configuration for interacting with the the Socrata API.
  *
- * @package allejo\Socrata
+ * @package Davidsierradz\Socrata
  * @since   0.1.0
  */
 class SodaClient

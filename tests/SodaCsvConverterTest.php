@@ -1,11 +1,11 @@
 <?php
 
-use allejo\Socrata\Converters\CsvConverter;
+use Davidsierradz\Socrata\Converters\CsvConverter;
 
 class SodaCsvConverterTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @expectedException \allejo\Socrata\Exceptions\FileNotFoundException
+     * @expectedException \Davidsierradz\Socrata\Exceptions\FileNotFoundException
      */
     public function testInvalidCsvFile ()
     {

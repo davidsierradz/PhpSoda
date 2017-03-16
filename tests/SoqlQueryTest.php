@@ -1,9 +1,9 @@
 <?php
 
-use allejo\Socrata\SodaClient;
-use allejo\Socrata\SodaDataset;
-use allejo\Socrata\SoqlOrderDirection;
-use allejo\Socrata\SoqlQuery;
+use Davidsierradz\Socrata\SodaClient;
+use Davidsierradz\Socrata\SodaDataset;
+use Davidsierradz\Socrata\SoqlOrderDirection;
+use Davidsierradz\Socrata\SoqlQuery;
 
 class SoqlQueryTest extends PHPUnit_Framework_TestCase
 {
@@ -41,7 +41,7 @@ class SoqlQueryTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \allejo\Socrata\Exceptions\HttpException
+     * @expectedException \Davidsierradz\Socrata\Exceptions\HttpException
      */
     public function testBadUrl ()
     {
