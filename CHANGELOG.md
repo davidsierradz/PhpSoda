@@ -4,7 +4,7 @@
 
 **Changes**
 
-- Enforce TLS 1.2, per [Socrata's announcement](https://github.com/allejo/PhpSoda/commit/63d01d48b51a6a20b0e29fcf1c5f739d78c21aa3)
+- Enforce TLS 1.2, per [Socrata's announcement](https://github.com/davidsierradz/PhpSoda/commit/63d01d48b51a6a20b0e29fcf1c5f739d78c21aa3)
 
 ## 1.0.0
 
@@ -43,7 +43,7 @@
 
 - Visibility of some functions in the **UrlQuery** class have changed
 - More documentation has been added
-- This library is now licensed as [MIT](https://github.com/allejo/PhpSoda/blob/master/LICENSE.md)
+- This library is now licensed as [MIT](https://github.com/davidsierradz/PhpSoda/blob/master/LICENSE.md)
 
 ## 0.1.1
 

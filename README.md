@@ -17,7 +17,7 @@ This library fully supports interacting with the API by getting datasets, handli
 
 This library is available on Packagist as [`allejo/php-soda`](https://packagist.org/packages/allejo/php-soda), add it using [Composer](https://getcomposer.org/).
 
-You're not using Composer? Don't worry, this library is also provided as a Phar archive for you include in your code. Get the latest Phar archive from our [Releases](https://github.com/allejo/PhpSoda/releases).
+You're not using Composer? Don't worry, this library is also provided as a Phar archive for you include in your code. Get the latest Phar archive from our [Releases](https://github.com/davidsierradz/PhpSoda/releases).
 
 Check out our [wiki article](https://github.com/allejo/PhpSoda/wiki/Installation) if you require assistance with using this library.
 
@@ -67,7 +67,7 @@ $ds->replace($data);
 
 ## Getting Help
 
-To get help, see if our [wiki](https://github.com/allejo/PhpSoda/wiki) has any information regarding your question. If the wiki can't help you, you may either [create an issue](https://github.com/allejo/PhpSoda/issues) or stop by IRC; I'm available on IRC as "allejo" so feel free to ping me. I recommend creating an issue in case others have the same question but for quick help, IRC works just fine.
+To get help, see if our [wiki](https://github.com/allejo/PhpSoda/wiki) has any information regarding your question. If the wiki can't help you, you may either [create an issue](https://github.com/davidsierradz/PhpSoda/issues) or stop by IRC; I'm available on IRC as "allejo" so feel free to ping me. I recommend creating an issue in case others have the same question but for quick help, IRC works just fine.
 
 To report a bug or request a feature, please submit an issue.
 
@@ -83,4 +83,4 @@ Network: irc.freenode.net
 
 ## License
 
-[MIT](https://github.com/allejo/PhpSoda/blob/master/LICENSE.md)
+[MIT](https://github.com/davidsierradz/PhpSoda/blob/master/LICENSE.md)

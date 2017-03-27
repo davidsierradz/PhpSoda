@@ -3,8 +3,8 @@
 /**
  * This file contains an abstract class with constants defining the order a Soda query could be returned in.
  *
- * @copyright 2017 David Sierra
- * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
+ * @copyright 2015 Vladimir Jimenez
+ * @license   https://github.com/davidsierradz/PhpSoda/blob/master/LICENSE.md MIT
  */
 
 namespace Davidsierradz\Socrata;

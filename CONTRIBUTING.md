@@ -6,7 +6,7 @@ Contributions take many forms, from submitting issues, writing documentation, to
 
 You can clone this repository locally from GitHub using the "Clone in Desktop" button from the main project site, or run this command from the command line:
 
-`git clone https://github.com/allejo/PhpSoda.git PhpSoda`
+`git clone https://github.com/davidsierradz/PhpSoda.git PhpSoda`
 
 If you want to make contributions to the project, [forking the project](https://help.github.com/articles/fork-a-repo) is the easiest way to do this. You can then clone down your fork instead:
 
@@ -14,7 +14,7 @@ If you want to make contributions to the project, [forking the project](https://
 
 ### How is the code organized?
 
-The actual library is housed in the `src/` folder. All of the public classes are in the **allejo\Socrata** namespace and are located in the root of `src/`. Other utilities that are mainly intended for internal usage are housed in subfolders inside of `src/` such as exceptions, converters, and utilities.
+The actual library is housed in the `src/` folder. All of the public classes are in the **Davidsierradz\Socrata** namespace and are located in the root of `src/`. Other utilities that are mainly intended for internal usage are housed in subfolders inside of `src/` such as exceptions, converters, and utilities.
 
 #### Unit Tests & PHPDoc
 
@@ -22,7 +22,7 @@ The unit tests are located in the `tests/` directory. All contributions should h
 
 ### What needs to be done?
 
-Looking at our [**issue tracker**](https://github.com/allejo/PhpSoda/issues?state=open) is the quickest way to see what needs to get done.
+Looking at our [**issue tracker**](https://github.com/davidsierradz/PhpSoda/issues?state=open) is the quickest way to see what needs to get done.
 
 If you've found something you'd like to contribute to, leave a comment in the issue or start a new issue so everyone is aware.
 

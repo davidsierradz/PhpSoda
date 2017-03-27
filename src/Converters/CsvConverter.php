@@ -3,8 +3,8 @@
 /**
  * This file contains the CSV converter used by PhpSoda to officially support CSV as a data format
  *
- * @copyright 2017 David Sierr5
- * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
+ * @copyright 2015 Vladimir Jimenez
+ * @license   https://github.com/davidsierradz/PhpSoda/blob/master/LICENSE.md MIT
  */
 
 namespace Davidsierradz\Socrata\Converters;

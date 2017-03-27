@@ -3,8 +3,8 @@
 /**
  * This file contains the SoqlQuery class and the respective constants and default values that belong to SoQL.
  *
- * @copyright 2017 David Sierra
- * @license   https://github.com/Davidsierradz/PhpSoda/blob/master/LICENSE.md MIT
+ * @copyright 2015 Vladimir Jimenez
+ * @license   https://github.com/davidsierradz/PhpSoda/blob/master/LICENSE.md MIT
  */
 
 namespace Davidsierradz\Socrata;

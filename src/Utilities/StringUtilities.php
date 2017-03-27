@@ -4,7 +4,7 @@
  * This file contains the StringUtilities class
  *
  * @copyright 2015 Vladimir Jimenez
- * @license   https://github.com/allejo/PhpSoda/blob/master/LICENSE.md MIT
+ * @license   https://github.com/davidsierradz/PhpSoda/blob/master/LICENSE.md MIT
  */
 
 namespace Davidsierradz\Socrata\Utilities;
@@ -14,7 +14,7 @@ use Davidsierradz\Socrata\Exceptions\InvalidResourceException;
 /**
  * This class contains static utilities used for validating strings
  *
- * @package allejo\Socrata\Utilities
+ * @package Davidsierradz\Socrata\Utilities
  * @since   0.1.0
  */
 class StringUtilities
